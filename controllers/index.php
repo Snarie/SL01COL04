@@ -14,8 +14,7 @@
  * - about
  */
 
-
-
+//die(var_dump($app));;
 require 'views/index.view.php';
 
 /**
