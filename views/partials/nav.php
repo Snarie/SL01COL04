@@ -11,16 +11,16 @@
                     <a class="nav-link <?php echo $_SERVER['REQUEST_URI'] == "/" ? 'active' : '';?>" aria-current="page" href="/">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" <?php echo $_SERVER['REQUEST_URI'] == "/about" ? 'active' : '';?> href="/views/about.view.php">about</a>
+                    <a class="nav-link" <?php echo $_SERVER['REQUEST_URI'] == "/about" ? 'active' : '';?> href="/about">about</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" <?php echo $_SERVER['REQUEST_URI'] == "/contact" ? 'active' : '';?> href="/views/contact.view.php">contact</a>
+                    <a class="nav-link" <?php echo $_SERVER['REQUEST_URI'] == "/contact" ? 'active' : '';?> href="/contact">contact</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" <?php echo $_SERVER['REQUEST_URI'] == "/details" ? 'active' : '';?> href="/views/details.view.php">details</a>
+                    <a class="nav-link" <?php echo $_SERVER['REQUEST_URI'] == "/details" ? 'active' : '';?> href="/details">details</a>
                 </li>
                 <li>
-                    <a class="nav-link" <?php echo $_SERVER['REQUEST_URI'] == "/skills" ? 'skills' : '';?> href="/views/skills.view.php">skills</a>
+                    <a class="nav-link" <?php echo $_SERVER['REQUEST_URI'] == "/skills" ? 'skills' : '';?> href="/skills">skills</a>
                 </li>
                 <!--                  <li class="nav-item dropdown">-->
                 <!--                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">-->
